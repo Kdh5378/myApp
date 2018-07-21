@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>영역예제</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <meta name="keyword" content="실습, 데이터 진흥원, 노잼"/>
+        <script>
+
+        </script>
+        <style>
+            *{margin:0; padding:0}
+            main {background-color:#F1F1F1; width:800px; margin:0 auto;}
+            header {background-color:#F1F1F1; text-align:center;}
+            footer {background-color:#aaa; text-align:center;}
+            header > h1,footer > h1 {padding:20px;}
+            nav {overflow:hidden; background-color:#333;}
+            nav li {float:left; display:block;  padding:14px 16px; text-align:center; color:#f2f2f2;}
+            nav li:hover {background-color:#ddd; color:black;}
+            main>section {float:left; width:500px;}
+            main>aside {float:right; width:200px;}
+            article>section, main>aside{padding:10px; margin-top:20px; background-color:#aaa;}
+            article ,section>article {background-color:white; padding:20px; margin:20px;}
+            article > section {background-color:#aaa;}
+            section > p, section > article >p {padding:7px; border :1px solid #000;}
+            .clearfix{clear:both; content"";}
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <header>
+               <h1>Header</h1>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>News</li>
+                        <li>Content</li>
+                        <li>About</li>
+                    </ul>
+                </nav>
+            </header>
+    <aside>
+        <section>
+                <h1>Advertisement1</h1>
+                <p>Contnet1</p>
+        </section>
+        <section>
+                <h1>Advertisement2</h1>
+                <p>Contnet2</p>
+        </section>
+    </aside>
+    
+    <section>
+        <article>
+            <h1>Title</h1>
+            <p>Content</p>
+        </article>
+        <article>
+            <h1>Title</h1>
+            <section>
+                <h1>Sub Title1</h1>
+                <p>Sub Content1</p>
+            </section>
+            <section>
+                <h1>Sub Title2</h1>
+                <p>Sub Content2</p>
+            </section>
+        </article>
+    </section>
+
+    <footer class="clearfix">
+        <h1>Footer</h1>
+    </footer>
+    
+        </main>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <style>
+            div {border:1px solid #aaaaaa;}
+            #id1 {position:relative; height:50px; background-color:magenta; opacity:0.5; font-size:2.5em;}
+            #id2 {position:absolute; top:100px; left:200px}
+            #id3 {position:fixed; top:200px; left:200px; text-align:center;}
+            #id1 >ul {position:absolute; top:0px; left:000px; border:1px; solid #aaaaaa; display:none}
+            #id1:hover >ul{display:block;}
+        </style>
+    </head>
+    <body>
+        <div id="id1">Content1
+                 <ul>
+                     <li>menu1</li>
+                     <li>menu2</li>
+                 </ul>
+        </div>
+        <div id="id2">Content2</div>
+        <div id="id3">Content3</div>
+    </body>
+</html>

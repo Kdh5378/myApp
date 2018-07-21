@@ -1,0 +1,470 @@
+show databases
+db.createCollection('post');
+show collections
+show databases
+use tempDB
+show dbs
+db
+db.dropDatabase()
+show dbs
+use newDB
+db.dropDatabase()
+show dbs
+use admin
+show roles
+show users
+show dbs
+show users
+show Users
+ahow dbs
+show dbs
+show users
+show user
+use admon
+use admin
+show users
+show dbs
+show collections
+show user
+use admin
+show user
+show users
+show collections
+db.post.save({title:"new post", url:"https://korea.ac.kr", date;Date(), content:"this is new post"});
+db.post.save({title:"new post", url:"https://korea.ac.kr", date;Date(), content:"this is new post"})
+db.post.save({title:"new post", url:"https://korea.ac.kr", date:Date(), content:"this is new post"})
+db.post.find()
+db.post.find();
+db.podt.find().pretty()
+db.podt.find().pretty();
+db.post.find().pretty();
+db.post.find().pretty()
+db.post.insert({title:"another post", date:ISODate(), content:"Null", recommand:0});
+db.post.find().pretty();
+db.post.insert([{_id:1, title:"2", url:"http://ahah", content:"123", recommand:10}, _id:2, title:"3", url:"http://daum", content:"1234", recommand:11}])
+db.post.insert([{_id:1, title:"2", url:"http://ahah", content:"123", recommand:10}, _id:2, title:"3", url:"http://daum", content:"1234", recommand:11}]);
+db.post.insert([{_id:1, title:"2", url:"http://ahah", content:"123", recommand:10}, {_id:2, title:"3", url:"http://daum", content:"1234", recommand:11}])
+db.post.find().pretty()
+db.post.insert(_id:1)
+db.post.insert({_id:1})
+db.post.save({_id:1})
+db.post.insertOne({_id:4, title:"hoho", recommand:5})
+show collections
+sb.post.find({title:"new post"})
+sb.post.find({title:"new post"});
+db.post.find({title:"new post"})
+db.post.find({title:"3"})
+db.post.find({title:"3"}).pretty()
+db.item.insertMany({title:"1", name:"1"},)
+db.item.insertMany({title:"1", name:"1"},{title:"2", name:"2"})
+db.item.insertMany([{title:"1", name:"1",price:20000},{title:"2", name:"2",price:30000}])
+db.item.find().pretty()
+db.item.find(price>25000)
+db.item.find("price">25000)
+db.item.find("price">25000).pretty()
+db.item.find({price :{$gte:25000}).pretty() }
+db.item.find({price :{$gte:25000}}).pretty()
+db.item.find({price :{$lte:25000}}).pretty()
+db.item.find({name:"1", price:20000})
+db.item.find({name:"1", price:20000}).pretty()
+db.item.find({$or : [name:"1"},{price:30000}) )
+db.item.find({$or : [{name:"1"},{price:30000}]})
+db.item.find({$or : [{name:"1"},{price:30000}]}).pretty()
+db.item.find({$nor : [{name:"1"},{price:30000}]}).pretty()
+db.item.insertMany([{title:"3", name:"3", price:40000},{title:"4",name:"4",price:50000},{title:"5",name:"5",price:60000}])
+db.item.find().pretty()
+db.item.find({name:{$exists:true}}).pretty()
+db.item.find({name:{$exists:"1"}}).pretty()
+db.item.find({name:{$exists:"4"}}).pretty()
+db.post.find({url:{$exists:true}}).pretty()
+db.post.find({recommand:{$type:'string'}}).pretty()
+db.post.find({recommand:{$type:'int'}}).pretty()
+db.post.find({recommand:{$type:'double'}}).pretty()
+typeof Date()
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, (_id:2, value:numberDecimal(9.9), description:"decimal},
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, (_id:2, value:numberDecimal(9.9), description:"decimal"},
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, (_id:2, value:numberDecimal(9.9), description:"decimal"},{_id:3, value:10, description:"double"},{_id:4, value:NumberDecimal(10), description:"int"},{_id:5, value:NumerDecimal(10), description:
+"decimal"}[)
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, (_id:2, value:numberDecimal(9.9), description:"decimal"},{_id:3, value:10, description:"double"},{_id:4, value:NumberDecimal(10), description:"int"},{_id:5, value:NumerDecimal(10), description:"decimal"}])
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, {_id:2, value:numberDecimal(9.9), description:"decimal"},{_id:3, value:10, description:"double"},{_id:4, value:NumberDecimal(10), description:"int"},{_id:5, value:NumerDecimal(10), description:"decimal"}])
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, {_id:2, value:NumberDecimal(9.9), description:"decimal"},{_id:3, value:10, description:"double"},{_id:4, value:NumberDecimal(10), description:"int"},{_id:5, value:NumerDecimal(10), description:"decimal"}])
+db.testdecimal.insertMany([ {_id:1, value:9.9, description:"double"}, {_id:2, value:NumberDecimal(9.9), description:"decimal"},{_id:3, value:10, description:"double"},{_id:4, value:NumberDecimal(10), description:"int"},{_id:5, value:NumberDecimal(10), description:"decimal"}])
+sb.testdecimal.find().pretty()
+db.testdecimal.find().pretty()
+db.testdecimal.find({value:NumberDecimal(9.9)})
+db.testdecimal.find({value:NumberDecimal(9.9)}).pretty()
+db.testdecimal.find({value:10}).pretty()
+db.testdecimal.find({value:NumberInt(10)}).pretty()
+db.testdecimal.find({value:NumberDecimal(9.9)}).pretty()
+db.testdecimal.find({value:9.9}).pretty()
+db.item.find().pretty()
+db.item.find($or[{ name:"5"},{name:"4"},{name:"3"}])
+db.item.find({$or[{ name:"5"},{name:"4"},{name:"3"}]})
+db.item.find({$or[{ name:"5"},{name:"4"},{name:"3"}]});
+db.item.find({$or[{name:"5"},{name:"4"},{name:"3"}]});
+db.item.find( {$or [{name:"5"},{name:"4"},{name:"3"}] } );
+db.item.find( {$or [{"name":"5"},{"name":"4"},{"name":"3"}] } );
+sb.post.find({},{_id:false, title:true, content:true, recommand:true});
+db.post.find({},{_id:false, title:true, content:true, recommand:true});
+db.post.find({},{_id:false, title:true, content:true, recommand:true}).pretty();
+db.post.find({},{_id:false, title:true, content:false}).pretty();
+db.post.find({},{_id:false, title:true}).pretty();
+var a = db.post.find().pretty()
+a
+var dc = db.testdecimal
+dc.find().pretty();
+db.item.find().sort({price:1})
+db.item.find().sort({price:1}).pretty()
+db.item.find().sort({price:-1}).pretty()
+db.item.find().count()
+db.item.find({name:/item [1-3]/}).count()
+dc.find({name:/item [1-3]/}).count()
+dc.find().limit(3)
+dc.find().limit(3).pretty()
+dc.find().skip(3).pretty()
+db.item.find({},{_id:flase, name:true, price:true})
+db.item.find({},{_id:false, name:true, price:true})
+var i=db.item
+i.update({name:"item3"},{price:12000}).pretty();
+i.update({name:"3"},{price:12000}).pretty();
+i.update({name:"3"},{price:12000})
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({price:12000},{name:"3", price:20000})
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({price:20000},{name:"6", price:18000});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({price:{$gte: 30000}},{name:"7", price:25000},{multi:true});
+i.update({price:30000},{$set:{ price:25000}});
+i.find().pretty()
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({price:{$gte: 25000}},{$set:{price:50000}},{multi:true});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({name:"3"},{name:"3",price:37000},{upsert:true});
+i.update({name:"7"},{name:"7",price:37000},{upsert:true});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.updateMany();
+i.updateMany({price:{$gte: 25000}},{$set:{price:50000}});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.updateMany({price:{$lte: 25000}},{$set:{price:30000}});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.updateOne({name:"2"},{name:"1",price:10000});
+i.update({name:"2"},{name:"1",price:10000});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.update({name:"3"},{name:"2",price:20000});
+i.update({name:"4"},{name:"3",price:30000});
+i.update({name:"5"},{name:"4",price:40000});
+i.update({name:"6"},{name:"5",price:50000});
+i.update({name:"7"},{name:"6",price:60000});
+i.find({},{_id:false, name:true, price:true}).pretty()
+i.find({},{_id:false, name:true, price:true}).sort().pretty()
+i.find({},{_id:false, name:true, price:true}).sort()
+i.find({},{_id:false, name:true, price:true}).sort(1)
+i.find({},{_id:false, name:true, price:true}).sort(price:1)
+i.find({},{_id:false, name:true, price:true}).sort({price:1}).pretty()
+i.updateMany({price:{$eq: 20000}},{price:{$inc:5000}); )
+i.updateMany({price:{$eq: 20000}},{price:{$inc:5000}});
+i.updateMany({price:{$eq: 20000}},{$inc: {price:5000}});
+i.find({},{_id:false, name:true, price:true}).sort({price:1}).pretty()
+i.updateMany({price:{$eq: 20000}},{$dec: {price:5000}});
+i.updateMany({price:{$eq: 25000}},{$dec: {price:5000}});
+i.find({},{_id:false, name:true, price:true}).sort({price:1}).pretty()
+i.updateMany({price:{$eq: 25000}},{$dec: {price:5000}});
+i.updateMany({price:{$eq: 25000}},{$mul: {price:5000}});
+i.find({},{_id:false, name:true, price:true}).sort({price:1}).pretty()
+i.find({},{_id:false, name:true, price:true}).sort({name:1}).pretty()
+var tl=db.testlist
+tl.insertMany( {name:1, list:[1,2,3,4]}, {name:2, list:["a","b","c","d"]}, {name:3, list:["1","2","3","4"]}, {name:4, doc:[{name:"A", price:100},{name:"B",price:200}]})
+tl.insertMany( [{name:1, list:[1,2,3,4]}, {name:2, list:["a","b","c","d"]}, {name:3, list:["1","2","3","4"]}, {name:4, doc:[{name:"A", price:100},{name:"B",price:200}]}])
+tl.find().pretty()
+tl.find()
+tl.find({list:2})
+tl.find({list:"2"})
+tl.find({list:10})
+tl.find({doc[name]})
+tl.find({doc[name:"A"]})
+tl.find({doc:"A"})
+tl.find({doc:name:"A"})
+tl.find({doc:{name:"A"}})
+tl.find({doc.name:"A"})
+tl.find({doc.{name:"A"}})
+tl.find({doc.name:"A"})
+tl.updateOne({name:1},{list:10});
+tl.updateOne({name:1},{list.$:10});
+tl.updateOne({name:1},{$push{list.$:10}});
+tl.updateOne({name:1},{$push:{list.$:10}});
+tl.updateOne({name:1},{$pull:{list.$:10}});
+tl.updateOne({name:1},{$pull:{list:10}});
+tl.updateOne({name:1},{$push:{list:10}});
+tl.find()
+tl.find().pretty()
+tl.updateOne({name:1},{$pull:{list:10}});
+tl.find().pretty()
+tl.updateOne({list:"c"},{list.$:"C"});
+tl.update({list:"c"},{list.$:"C"});
+tl.update({list:"c"},{"list.$":"C"});
+tl.find().pretty()
+tl.update({name:2, list:["a","b","c","d"]});
+tl.insert({name:2, list:["a","b","c","d"]});
+tl.find().pretty()
+tl.remove({name:1})
+tl.find()
+tl.remove({name:/[2-4]/})
+tl.find()
+tl.remove({name:/[1-4]/})
+tl.remove({name:/[34]/})
+tl.remove({name:/[3-4]/})
+tl.remove({"name":/[3-4]/})
+tl.drop({})
+tl.find()
+tl.getIndexes()
+for(count=0; count<1000; count++){ db.newitem.insertOne({_id:count, price:NumberInt(Math.random()*100), ratio:Math.random()*5});}
+db.newitem.find().count()
+db.newitem.find().linit(20)
+db.newitem.find().limit(20)
+var n=db.newitem
+n.getIndexes()
+n.createIndex({price:1});
+n.getIndexes()
+n.createIndex({price:1, ratio:-1});
+n.totlIndexSize();
+n.totalIndexSize();
+close()
+mongo
+show dbs
+{_id:POST_ID}
+var so = db.social
+db.createCollection('social',{max: 1000});
+help
+db.mycoll.help()
+mongod --dbpath "C\Program Files\MongoDB\Server\4.0\data\hw"
+mongod --dbpath "C\Program Files\MongoDB\Server\4.0\data\hw";
+mongod --dbpath "C\Program Files\MongoDB\Server\4.0\data\hw"
+mongo --dbpath "C\Program Files\MongoDB\Server\4.0\data\hw"
+mongod --dbpath "\hw"
+mongod --dbpath "\C"
+mongo --dbpath "C\Program Files\MongoDB\Server\4.0\data"
+--dbpath "C\Program Files\MongoDB\Server\4.0\data\hw"
+mongo --dbpath "C\Program Files\MongoDB\Server\4.0\data";
+mongo --dbpath "\data\dbd"
+mongo --dbpath "C:\"
+mongo --dbpath "C:\";
+mongod --dbpath "C:\";
+--dbpath
+mongod --dbpath
+db.createCollection("social")
+makeuser=function(in_name, in_pwd, in_email){ return sb.social.insert({name:in_name, password:in_pwd, email:in_email});}
+for(i=0; i<5; i++){ makeuser("user"+i, "pw"+i, "user"+i+"naver.com") }
+makeuser(1,1,1)
+makeuser=function(in_name, in_pwd, in_email){ return db.social.insert({name:in_name, password:in_pwd, email:in_email});}
+for(i=0; i<5; i++){ makeuser("user"+i, "pw"+i, "user"+i+"naver.com") }
+db.social.find()
+var s=sb.social
+var s=db.social
+makepro=function(count){ return db.social.update({name:"user"+count},{$set:{profile:"http://"+count+".png"}}}}
+makepro=function(count){ return db.social.update({name:"user"+count},{$set:{profile:"http://"+count+".png"}})}
+for(i=0; i<5; i++){makepro(i)}
+s.find()
+s.update({name:"user2"},{$set:{address:"seoul",telephone:"222-2222-2222"}});
+s.update({name:"user3"},{$set:{address:"seoul",telephone:"333-3333-3333"}});
+s.update({name:"user4"},{$set:{[{address:"seoul",telephone:"444-4444-4444",describe:"44"},{address2:"seoul2",telephone:"444-4444-4444,describe:"44"},{address:"seoul3",telephone:"444-4444-4444,describe:"44"}]}}));
+s.update({name:"user4"},{$set:{[{address:"seoul",telephone:"444-4444-4444",describe:"44"},{address2:"seoul2",telephone:"444-4444-4444,describe:"44"},{address:"seoul3",telephone:"444-4444-4444,describe:"44"}]}});
+s.update({name:"user4"},{$set:{[{address:"seoul",telephone:"444-4444-4444",describe:"44"},{address2:"seoul2",telephone:"444-4444-4444,describe:"44"},{address:"seoul3",telephone:"444-4444-4444,describe:"44"}]}})
+s.update({name:"user4"},{$set:{{address:"seoul",telephone:"444-4444-4444",describe:"44"},{address2:"seoul2",telephone:"444-4444-4444,describe:"44"},{address:"seoul3",telephone:"444-4444-4444,describe:"44"}}})
+s.update({name:"user4"},{$set:{address:"seoul",telephone:"444-4444-4444"}});
+s.update({name:"user4"},{$set:{address2:"seoul",telephone2:"444-4444-4445"}});
+s.update({name:"user4"},{$set:{address3:"seoul",telephone3:"444-4444-4446"}});
+s.find().pretty()
+s.update({name:"user0"},{$set:[{friend:"user1", "user2"}]});
+s.update({name:"user0"},{$set:{friend:"user1", "user2"}});
+s.update({name:"user0"},{$set:{friend:"user1"}});
+s.update({name:"user1"},{$set:{friend:"user2"}});
+s.update({name:"user2"},{$set:{friend:"user3"}});
+s.update({name:"user3"},{$set:{friend:"user4"}});
+s.update({name:"user4"},{$set:{friend:"user1, user2"}});
+s.find().pretty()
+makeuser(12,12,12)
+s.update({name:"user12"},{$set:[{a:1},{b:3}]});
+s.update({name:"user12"},{$set:{{a:1},{b:3}}});
+s.update({name:"user12"},{$set:({a:1},{b:3})});
+s.find(name:"user12")
+s.find()
+s.find().pretty()
+s.update({name:"user12"},{$set:[{a:1},{b:3}]});
+s.update({name:"user12"},{$set:{<s:1>,<v:2>}});
+s.update({name:"user12"},{$set:{v:1,2}); )
+s.update({name:"user12"},{$set:{v:1,2}} )
+db.insert(name:1, address:{a:1,b:2},phone:010)
+db.social.insert(name:1, address:{a:1,b:2},phone:010)
+db.social.insert({name:1, address:{a:1,b:2},phone:010})
+db.social.find().pretty()
+db.social.insert({name:2, address:{a:1,b:2},phone:010})
+db.social.find().pretty()
+s.update({name:"user2"},{$set:{$address:{a:3}}} )
+s.update({name:"user2"},{$set:{address:{a:3}}} )
+db.social.find().pretty()
+s.update({name:"user2"},{$set:{address:{a:3}}})
+name = "string"
+name = ["string", "string", "string"]
+addresss = ["asd", "asd", "asd"]
+s.find()
+validarot
+validator
+db.createCollection("test",{ validator: {$and : { name = "string", pwd = "string" } } } }
+db.createCollection("test",{ validator: {$and :[ { name : "string", pwd = "string" } } } }
+db.createColletion("test", {validator: {$and: [ {name : { type: "string"}}, {pwd : {type: "stromg}},
+db.createColletion("test", {validator: {$and: [ {name : { type: "string"}}, {pwd : {type: "stromg}}},
+db.createColletion("test", {validator: {$and: [ {name : { type: "string"}}, {pwd : {type: "string"}}, } } }
+db.createColletion("test", {validator: {$and: [ {name : { $type: "string"}}, {pwd : {$type: "string"}}, {id : {$type : "string"}}]}})
+db.createCollection("test", {validator: {$and: [ {name : { $type: "string"}}, {pwd : {$type: "string"}}, {id : {$type : "string"}}]}})
+db.test.insert({name : "asd"})
+db.test.insert({name : "asd", id = "asd", pwd = "asd", email = "asd"})
+db.test.insert({name : "asd", id : "asd", pwd : "asd", email : "asd"})
+db.test.find()
+db.test.insert({name : "qwe", id : "asd", pwd : "asd", email : "asd", address = ["addres1", "address2", address3"]})
+db.test.insert({name : "qwe", id : "asd", pwd : "asd", email : "asd", address : ["addres1", "address2", address3"]})
+db.test.insert({name : "qwe", id : "asd", pwd : "asd", email : "asd", address : ["addres1", "address2", "address3"]})
+db.test.find()
+db.close()
+db.exit()
+exit()
+db
+db.show()
+show dbs
+db.createCollection("social", {validator:{ $and: [ {name:{$type:"string"}}, {password:{$type:"string"}}, {email:{$type:"string"}}]}})
+db.social.insert({name:"user1", password:"pwd1", email:"user1@korea.ac.kr"})
+db.social.insert({name:"user2", password:"pwd2", email:"user2@korea.ac.kr"})
+db.social.insert({name:"user3", password:"pwd3", email:"user3@korea.ac.kr"})
+db.social.insert({name:"user4", password:"pwd4", email:"user4@korea.ac.kr"})
+db.social.insert({name:"user5", password:"pwd5", email:"user5@korea.ac.kr"})
+db.social.find().pretty()
+db.social.update({name:"user1"},{$set:{profile:"1.png"}})
+db.social.update({name:"user2"},{$set:{profile:"2.png"}})
+db.social.update({name:"user3"},{$set:{profile:"3.png"}})
+db.social.update({name:"user4"},{$set:{profile:"4.png"}})
+db.social.update({name:"user5"},{$set:{profile:"5.png"}})
+db.social.update({name:"user5"},{$set:{address:"korea"}})
+db.social.update({name:"user5"},{$push:{address:"seoul"}})
+db.social.update({name:"user5"},{$set:{address:[{"korea"},{"seoul"},{"seongbuk"}]}})
+db.social.update({name:"user5"},{$set:{address:["korea","seoul","seongbuk"]}})
+db.social.find().pretty()
+db.social.update({name:"user4"},{$set:{address:"korea"}})
+db.social.update({name:"user3"},{$set:{address:"korea"}})
+db.social.find().pretty()
+db.social.update({name:"user5"},{$set:{address:["korea,des_korea,tel_korea","seoul,des_seoul,tel_seoul","seongbuk,des_seongbuk,tel_seongbuk"]}})
+db.social.update({name:"user4"},{$set:{address:"korea,des_korea,tel_korea"}})
+db.social.update({name:"user3"},{$set:{address:"korea,des_korea,tel_korea"}})
+db.social.find().pretty()
+db.social.update({name:"user1"},{$set:{comp_friend:["user2","user3"]}})
+db.social.update({name:"user2"},{$set:{comp_friend:["user1","user3"]}})
+db.social.update({name:"user3"},{$set:{comp_friend:["user1","user2"]}})
+db.social.update({name:"user4"},{$set:{fam_friend:"user5"}})
+db.social.update({name:"user5"},{$set:{fam_friend:"user4"}})
+db.social.update({name:"user1"},{$set:{real_friend:"user4"}})
+db.social.update({name:"user4"},{$set:{real_friend:"user1"}})
+db.social.find().pretty()
+db.social.update({name:"user4"},{$unset:{real_friend:"user1"}})
+db.social.update({name:"user1"},{$unset:{real_friend:"user4"}})
+db.social.update({name:"user5"},{$unset:{fam_friend:"user4"}})
+db.social.update({name:"user4"},{$unset:{fam_friend:"user5"}})
+db.social.update({name:"user3"},{$unset:{comp_friend:["user1","user2"]}})
+db.social.update({name:"user2"},{$unset:{comp_friend:["user1","user3"]}})
+db.social.update({name:"user1"},{$unset:{comp_friend:["user2","user3"]}})
+db.social.find().pretty()
+db.social.update({name:"user1"},{$set:{friend:["company:user2,user3","real:user4"]}})
+db.social.update({name:"user2"},{$set:{friend:["company:user1,user3"]}})
+db.social.update({name:"user3"},{$set:{friend:["company:user1,user3"]}})
+db.social.update({name:"user4"},{$set:{friend:["family:user5","real:user1"]}})
+db.social.update({name:"user5"},{$set:{friend:["family:user5"]}})
+db.social.find().pretty()
+db.social.update({name:"user4"},{$set:{feed1:["from:user5","contents:hello","date:Date()"]}})
+db.social.find().pretty()
+db.social.update({name:"user4"},{$set:{feed1:["from:user5","contents:hello","date:"+Date()]}})
+db.social.find().pretty()
+db.social.update({name:"user5"},{$set:{feed1:["from:user4","contents:hello user5","date:"+Date()]}})
+db.social.update({name:"user4"},{$set:{feed1:["from:user5","contents:hello user5","date:"+Date()]}})
+db.social.find().pretty()
+db.social.update({name:"user4"},{$set:{feed1:["from:user5","contents:hello user4","date:"+Date()]}})
+db.social.update({name:"user1"},{$set:{feed1:["from:user4","contents:hello user1","date:"+Date()]}})
+db.social.update({name:"user2"},{$set:{feed1:["from:user1","contents:hello user2","date:"+Date()]}})
+db.social.update({name:"user3"},{$set:{feed1:["from:user2","contents:hello user3","date:"+Date(),"picture:"+["feed_pic1","feed_pic2"]]}})
+db.social.update({name:"user3"},{$set:{feed2:["from:user3","contents:hello user1","date:"+Date()]}})
+db.social.find().pretty()
+db.social.update({name:"user3"},{$unset:{feed2:["from:user3","contents:hello user1","date:"+Date()]}})
+db.social.update({name:"user1"},{$set:{feed2:["from:user3","contents:hello user1","date:"+Date()]}})
+db.social.find().pretty()
+db.social.insert(name:"hidden")
+db.social.insert({name:"hidden"})
+db.social.insert({name:"user0", password:"0", email:"0"})
+db.social.find().pretty()
+db.social.update({name:"hidden_group"},{founder:"h_user1"})
+db.social.update({name:"user0"},{founder:"h_user1"})
+db.social.update({name:"user0"},{$set:{[founder:"h_user1",manager:"h_user2]}})
+db.social.update({name:"user0"},{$set:{[{founder:"h_user1"},{manager:"h_user2}]}})
+db.social.update({name:"user0"},{$set:{founder:"h_user1"}})
+db.social.update({name:"user0"},{$set:{manager:"h_user2}})
+db.social.update({name:"user0"},{$set:{manager:"h_user2"}})
+db.social.update({founder:"h_user1"},{$set:{name:"hidden_group"}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{password:"q1w2e3r4"}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1"]}) }
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1"]}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{participant:[{"h_user1","png"}]}})
+db.social.update({founder:"h_user1"},{$set:{participant:{["h_user1","png"]}}})
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1","h_user2",h_user3","h_user4","h_user5"]}})
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1","h_user2","h_user3","h_user4","h_user5"]}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1,h_1.png","h_user2,h_2.png","h_user3,h_3.png","h_user4,h_4.png","h_user5,h_5.png"]}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{participant:["h_user1,user1,h_1.png","h_user2,user2,h_2.png","h_user3,user3,h_3.png","h_user4,user4,h_4.png","h_user5,user5,h_5.png"]}})
+db.social.find().pretty()
+db.social.update({founder:"h_user1"},{$set:{email:"}})
+db.social.update({founder:"h_user1"},{$set:{email:"None"}})
+db.social.find().pretty()
+show dbs
+show collections
+dbs
+db
+save
+dbs
+db
+show collection
+show collections
+db.social.find().pretty()
+db
+show dbs
+test
+dbs test
+db
+show table
+db.item.find()
+;
+db.item.find();
+db.social.find().pretty()
+show dbs
+use db prac
+use prac
+db
+showdbs
+show dbs
+sb
+db
+sb.createCollection('user')
+db.createCollection('user')
+db.createCollection('feed')
+db.createCollection('group')
+db.user.insertOne({_id:"newuser", pwd:"1q2w3e4r", name:"Tom", email:"tom@gamil.com"})
+db.user.find()
+db.user.find().pretty()
+db.user.updatene({_id:"newuser"},{$set: {profile:"tom.jpg"}});
+db.user.updatOne({_id:"newuser"},{$set: {profile:"tom.jpg"}});
+db.user.find().pretty()
+db.user.updateOne({_id:"newuser"},{$set: {profile:"tom.jpg"}});
+db.user.find().pretty()
+db.user.insertOne({_id:"newuser2", pwd:"1q2w3e4r", name:"Keven", email:"keven@gamil.com", address:[], profile:[], friends:[]})
+db.user.find().pretty()
+db.user.updateOne({_id:"newuser2"},{$set: {profile:"keven.jpg"}});
+db.user.find().pretty()
+db.cereateCollection('user2',{validator: $jsonSchema:{ bsonType:"object" required:["_id", "pwd", "name","email","address","profile","friends"] saas}})
+db.cereateCollection('user2',{validator: $jsonSchema:{ bsonType:"object", required:["_id", "pwd", "name","email","address","profile","friends"], properties:{ _id:{ bsonType:"string"}, pwd:{ bsonType:"string"}, name:{ bsonType:"string"}, email:{bsonType:"string"}, address;{bsonType:"array"}, profile:{bsonType:"string"} } } } }
